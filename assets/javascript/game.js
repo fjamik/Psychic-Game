@@ -21,7 +21,7 @@ document.onkeyup = function(event) {
 
   lettersGuessed.push(playerGuess);
 
-  if (playerGuess == compGuess) {
+  if (playerGuess === compGuess) {
     wins++;
     alert('You Guessed correctly');
     //refreshing player guesses back for playing again
@@ -29,7 +29,7 @@ document.onkeyup = function(event) {
 
     lettersGuessed.length = 0;
   }
-  else if (guessesLeft == 0) {
+  else if (guessesLeft === 0) {
     losses++;
     alert('You Lost. Try again.');
     guessesLeft = 9;
