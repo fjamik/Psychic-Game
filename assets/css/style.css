@@ -1,0 +1,22 @@
+body {
+  background: url(../images/fortune_teller.png);
+  font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+  align-content: center;
+  background-size: cover;     
+  color: rgb(206, 247, 59);      
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align:center;
+  vertical-align:center;
+  line-height: 36px;  
+}
+
+#main {
+  text-align: center;
+  margin: 85px;
+}
+
+
+#losses-tag, #wins-tag, #guessesleft, #sofar {
+  color: #fff;
+}
